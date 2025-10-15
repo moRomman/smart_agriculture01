@@ -1,4 +1,5 @@
 🌾 Smart Agriculture App
+
 A mobile application designed to empower farmers with data-driven insights for crop selection and community engagement. Built using Flutter and integrated with machine learning, this app helps optimize agricultural decisions based on real-time soil and weather data.
 
 📱 Features
