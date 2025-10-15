@@ -57,10 +57,6 @@ Built with **Flutter** and powered by **Machine Learning**, the app helps optimi
 - 💰 Micro-financing and insurance features  
 - 🗺️ Geo-based farmer clustering for local collaboration  
 
----
-
-## 📸 Screenshots *(optional)*  
-> Add screenshots or demo GIFs of your app here to showcase its design and usability.
 
 ---
 
@@ -68,7 +64,6 @@ Built with **Flutter** and powered by **Machine Learning**, the app helps optimi
 
 **👤 Mostafa Romman**  
 💻 Software Engineer | Flutter Developer  
-🔗 [LinkedIn](https://www.linkedin.com/in/mostafa-romman) • [GitHub](https://github.com/mostafaRomman)
 
 ---
 
