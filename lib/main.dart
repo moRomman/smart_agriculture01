@@ -5,7 +5,7 @@
 // import 'package:smart_agriculture/screens/Home/Screens/home_screen.dart';
 // import 'package:smart_agriculture/screens/Login/Screens/splash_screen.dart';
 // import 'package:smart_agriculture/screens/Market/Screens/market_screen.dart';
-// import 'package:smart_agriculture/screens/Settings/Screens/setting_screen.dart';
+// import 'package:smart_agriculture/screens/Settings/Screens/profile_screen.dart';
 
 // Future<void> main() async {
 //   WidgetsFlutterBinding.ensureInitialized();
@@ -114,7 +114,7 @@ import 'package:smart_agriculture/screens/Community/Screens/community_screen.dar
 import 'package:smart_agriculture/screens/Home/Screens/home_screen.dart';
 import 'package:smart_agriculture/screens/Login/Screens/splash_screen.dart';
 import 'package:smart_agriculture/screens/Market/Screens/market_screen.dart';
-import 'package:smart_agriculture/screens/Settings/Screens/setting_screen.dart';
+import 'package:smart_agriculture/screens/Settings/Screens/profile_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -166,7 +166,7 @@ class _MainBottomNavScreenState extends State<MainBottomNavScreen> {
           HomeScreen(),
           CommunityScreen(),
           MarketScreen(),
-          SettingScreen(),
+          ProfileScreen(),
         ],
       ),
       bottomNavigationBar: _buildBottomNavigationBar(),
@@ -201,7 +201,7 @@ class _MainBottomNavScreenState extends State<MainBottomNavScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings_outlined),
-            label: 'Settings',
+            label: 'Profile',
           ),
         ],
         currentIndex: _selectedIndex,
